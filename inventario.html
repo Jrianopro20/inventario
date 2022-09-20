@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--links styles-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    
+</head>
+<body>
+    <!--Logo-->
+  <img class="logo" src="img/bitmap-removebg-preview-removebg-preview (1).png">
+  <!--Sidebar-->
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <!--Pages links-->
+  <br>
+  <div class="Dashboard"><a href="index.html"><span class="material-symbols-outlined">dashboard</span>Dashboard</a></div><div class="active"></div>
+  <div class="Inventario"><a href="#"><span class="material-symbols-outlined">inventory</span>Inventario</a></div>
+  <div class="Entradas"><a href="#"><span class="material-symbols-outlined">arrow_back</span>Entradas</a></div>
+  <div class="Salidas"><a href="#"><span class="material-symbols-outlined">arrow_forward</span>Salidas</a></div>
+  <div class="Configuracion"><a href="#"><span class="material-symbols-outlined">settings</span>Configuracion</a></div>
+  <div class="Logout"><a href="login.html"><span class="material-symbols-outlined">logout</span>Cerrar Sesion</a></div>
+  <script src="app.js"></script>
+</div>
+</body>
+</html>

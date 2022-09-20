@@ -1,0 +1,266 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  background:#1da1e9;
+}
+*{
+  text-decoration: none;
+}
+/*login*/
+.login {
+  background-color: #ffff;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  text-align: center;
+  align-content: center;
+  margin-top: 15%;
+  margin-left: 42.5%;
+  position: fixed;
+  z-index: 1;
+}
+.login input {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  background: #FFFFFF;
+  border:1px solid #011830;
+  border-radius: 20px;
+}
+
+.login .click {
+  margin-top: 20px;
+  background-color: #1da1e9;
+  width: 90px;
+}
+.imglog{
+  justify-content: center;
+  margin-left: 850px;
+  position: fixed;
+  z-index: 1;
+  height: 200px;
+  width: 200px;
+}
+.textlog {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+/*logo*/
+.logo{
+  width: 100px;
+  height: 100px;
+}
+/*side bar*/
+.active{
+  background-color: black;
+  width: 5px;
+  height: 40px;
+  float: left;
+  border-radius: 50px;
+}
+.sidenav {
+  height: 75%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin-top: 30px;
+  border-radius: 20px;
+  float: left;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*table*/
+
+/*table*/
+h1{
+  margin-left: 260px;
+  color: white;
+}
+.container{
+  padding: 1rem;
+  margin: 1rem;
+}
+.table-scroll{
+  
+  display: block;
+empty-cells: hide;
+
+}
+
+.table-scroll thead{
+  background-color: white;  
+  position:relative;
+  display: block;
+  width:700px;
+  background: white;
+  border-radius: 10px;
+}
+
+.table-scroll tbody{
+  /* Position */
+  display: block; position:relative;
+  width:700px; overflow-y:scroll;
+  /* Decoration */
+  border-top: 1px solid rgba(0,0,0,0.2);
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+.table-scroll tr{
+  width: 100%;
+  display:flex;
+   border-radius: 10px;
+  
+}
+
+.table-scroll td,.table-scroll th{
+  flex-basis:100%;
+  flex-grow:2;
+  display: block;
+  padding: 1rem;
+  text-align:left;
+  
+}
+
+/* Other options */
+
+.table-scroll.small-first-col td:first-child,
+.table-scroll.small-first-col th:first-child{
+  flex-basis:20%;
+  flex-grow:1;
+}
+
+.table-scroll tbody tr:nth-child(2n){
+  background-color: rgba(130,130,170,0.1);
+}
+
+.body-half-screen{
+  max-height: 60vh;
+}
+
+.small-col{flex-basis:10%;}
+/*tabla entradas*/
+h1{
+  margin-left: 260px;
+  color: white;
+}
+.container1{
+margin-left: 600px;
+}
+.table-scroll1{
+  
+  display: block;
+empty-cells: hide;
+
+}
+
+.table-scroll1 thead{
+  background-color: white;  
+  position:relative;
+  display: block;
+  width:700px;
+  background: white;
+  border-radius: 10px;
+}
+
+.table-scroll1 tbody{
+  /* Position */
+  display: block; position:relative;
+  width:700px; overflow-y:scroll;
+  /* Decoration */
+  border-top: 1px solid rgba(0,0,0,0.2);
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+.table-scroll1 tr{
+  width: 100%;
+  display:flex;
+   border-radius: 10px;
+  
+}
+
+.table-scroll1 td,.table-scroll1 th{
+  flex-basis:100%;
+  flex-grow:2;
+  display: block;
+  padding: 1rem;
+  text-align:left;
+  
+}
+
+/* Other options */
+
+.table-scroll.small-first-col1 td:first-child,
+.table-scroll.small-first-col1 th:first-child{
+  flex-basis:20%;
+  flex-grow:1;
+}
+
+.table-scroll1 tbody tr:nth-child(2n){
+  background-color: rgba(130,130,170,0.1);
+}
+
+.body-half-screen1{
+  max-height: 60vh;
+}
+
+.small-col{flex-basis:10%;}
+/*tof*/
+.tof{
+  display: flex;
+  margin-left: 15%;
+}
+.total {
+  width: 200px;
+  height: 145px;
+  background-color: white;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+.cantidad {
+  width: 200px;
+  height: 145px;
+  background-color: white;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 80px;
+  padding-top: 20px;
+}
